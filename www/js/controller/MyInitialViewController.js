@@ -7,6 +7,10 @@ import {entities} from "../Main.js";
 
 export default class MyInitialViewController extends mwf.ViewController {
 
+    // instance attributes set by mwf after instantiation
+    args;
+    root;
+
     constructor() {
         super();
 
