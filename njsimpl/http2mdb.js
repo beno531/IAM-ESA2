@@ -8,7 +8,7 @@ module.exports = {
 }
 
 
-const mdbhost = "localhost";
+const mdbhost = "127.0.0.1";
 const mdbport = 27017;
 const mdbConnectTimeoutMS = 500;
 const mdbSelectionTimeoutMS = 2500;
