@@ -14,12 +14,14 @@ import {EntityManager} from "../Main.js";
 
 export class MyEntity extends EntityManager.Entity {
 
+    // TODO-REPEATED: declare entity instance attributes
+
     constructor() {
         super();
     }
 
 }
 
-// TODO-REPEATED: add new entity type declarations here
+// TODO-REPEATED: add new entity class declarations here
 
 

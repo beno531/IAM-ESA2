@@ -10,6 +10,7 @@ export default class MyInitialViewController extends mwf.ViewController {
     // instance attributes set by mwf after instantiation
     args;
     root;
+    // TODO-REPEATED: declare custom instance attributes for this controller
 
     constructor() {
         super();
